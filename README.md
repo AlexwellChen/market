@@ -13,7 +13,7 @@
     --config 拦截器配置类
     --controller  接取前段请求
     --dao  数据库操作接口，零实现
-    --entity  实体类对应数据库表
+    --entity  实体类， 对应于数据库表
     --interceptor 拦截器
     --service 业务逻辑处理
     --util 引用的工具类
