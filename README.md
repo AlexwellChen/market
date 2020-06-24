@@ -7,3 +7,13 @@
 后将群里下载的maven repo解压到设置的仓库位置。  
 进入pom.xml，右侧应该会出现maven的标识，点击后打开maven工具栏。  
 工具栏左上角刷新当前的maven依赖即可。
+
+### 项目结构
+    --common 
+    --config 拦截器配置类
+    --controller  接取前段请求
+    --dao  数据库操作接口，零实现
+    --entity  实体类， 对应于数据库表
+    --interceptor 拦截器
+    --service 业务逻辑处理
+    --util 引用的工具类
